@@ -1,0 +1,91 @@
+/* ================================
+   GLOBAL RESET
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   HTML & BODY
+================================ */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #070b14;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* ================================
+   LINKS
+================================ */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+button {
+  font-family: inherit;
+}
+
+
+/* ================================
+   INPUTS
+================================ */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+
+/* ================================
+   SCROLLBAR
+================================ */
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070b14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+
+/* ================================
+   SELECTION
+================================ */
+
+::selection {
+  background: #1e40af;
+  color: white;
+}
